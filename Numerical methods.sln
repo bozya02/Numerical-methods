@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prak3", "Numerical methods\prak3.csproj", "{BDA43069-9B9B-467A-A03D-E9F2C20E7696}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prak4", "prak4\prak4.csproj", "{F3F84039-5147-4239-A00A-18137EF9FBC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prak5", "prak5\prak5.csproj", "{6A7704CF-9078-40CD-B364-E09FBF2270AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prak6", "prak6\prak6.csproj", "{7A6C5212-425D-46D7-AD6E-65E3295AC7C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDA43069-9B9B-467A-A03D-E9F2C20E7696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA43069-9B9B-467A-A03D-E9F2C20E7696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA43069-9B9B-467A-A03D-E9F2C20E7696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA43069-9B9B-467A-A03D-E9F2C20E7696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3F84039-5147-4239-A00A-18137EF9FBC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3F84039-5147-4239-A00A-18137EF9FBC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3F84039-5147-4239-A00A-18137EF9FBC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3F84039-5147-4239-A00A-18137EF9FBC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7704CF-9078-40CD-B364-E09FBF2270AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7704CF-9078-40CD-B364-E09FBF2270AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7704CF-9078-40CD-B364-E09FBF2270AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7704CF-9078-40CD-B364-E09FBF2270AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A6C5212-425D-46D7-AD6E-65E3295AC7C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A6C5212-425D-46D7-AD6E-65E3295AC7C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A6C5212-425D-46D7-AD6E-65E3295AC7C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A6C5212-425D-46D7-AD6E-65E3295AC7C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56804240-4290-446C-825A-D12050519F74}
+	EndGlobalSection
+EndGlobal
