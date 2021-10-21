@@ -30,7 +30,7 @@ namespace prak6
             double[] x = new double[n];
             double[] y = new double[n];
             ConvertArray(array);
-            if (ConvergenceCheck(array))
+            if (!ConvergenceCheck(array))
                 return null;
             for (int i = 0; i < n; ++i)
             {
@@ -43,7 +43,7 @@ namespace prak6
                 y[i] = array[i, n];
                 for (int j = 0; j < n; ++j)
                 {
-                    y[i] *= array[i, j] * x[j];
+                    y[i] += array[i, j] * x[j];
                 }
                 d += Math.Pow(y[i] - x[i], 2);
             }
@@ -61,7 +61,7 @@ namespace prak6
                     y[i] = array[i, n];
                     for (int j = 0; j < n; ++j)
                     {
-                        y[i] *= array[i, j] * x[j];
+                        y[i] += array[i, j] * x[j];
                     }
                     d += Math.Pow(y[i] - x[i], 2);
                 }
@@ -79,12 +79,11 @@ namespace prak6
             {
                 for (int j = 0; j < n; ++j)
                 {
-                    max = array[i, j] * array[i, j] > max ?
-                          array[i, j] * array[i, j] : max;
+                    max = Math.Max(array[i, j] * array[i, j], max);
                 }
             }
 
-            return max > 1;
+            return max < 1;
         }
 
         public static void ConvertArray(double[,] array)
