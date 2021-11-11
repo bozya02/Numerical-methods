@@ -10,7 +10,6 @@ namespace prak5
     {
         static void Main(string[] args)
         {
-            const int n = 5;
             double[,] array1 = new double[,]
             {
                 { 5.38, 7.33, -0.24, -0.49, -8.41,  4.27},
