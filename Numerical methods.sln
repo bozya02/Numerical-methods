@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prak5", "prak5\prak5.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prak6", "prak6\prak6.csproj", "{7A6C5212-425D-46D7-AD6E-65E3295AC7C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prak9", "prak9\prak9.csproj", "{832B94DA-468B-4631-B6D8-3FF0AB9F12F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7A6C5212-425D-46D7-AD6E-65E3295AC7C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A6C5212-425D-46D7-AD6E-65E3295AC7C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A6C5212-425D-46D7-AD6E-65E3295AC7C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832B94DA-468B-4631-B6D8-3FF0AB9F12F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832B94DA-468B-4631-B6D8-3FF0AB9F12F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832B94DA-468B-4631-B6D8-3FF0AB9F12F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832B94DA-468B-4631-B6D8-3FF0AB9F12F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
