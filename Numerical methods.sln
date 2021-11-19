@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prak6", "prak6\prak6.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prak9", "prak9\prak9.csproj", "{832B94DA-468B-4631-B6D8-3FF0AB9F12F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prak10", "prak10\prak10.csproj", "{49CA2070-3394-4C3A-BB40-5DEAD996BCF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{832B94DA-468B-4631-B6D8-3FF0AB9F12F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{832B94DA-468B-4631-B6D8-3FF0AB9F12F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{832B94DA-468B-4631-B6D8-3FF0AB9F12F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49CA2070-3394-4C3A-BB40-5DEAD996BCF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49CA2070-3394-4C3A-BB40-5DEAD996BCF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49CA2070-3394-4C3A-BB40-5DEAD996BCF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49CA2070-3394-4C3A-BB40-5DEAD996BCF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
